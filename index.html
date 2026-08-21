@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>quirky-portfolio</title>
+        <link href="https://fonts.googleapis.com" rel="preconnect">
+        <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&amp;display=swap"
+                rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+                rel="stylesheet">
+
+</head>
+
+<body class="text-charcoal-text relative cursor-custom">
+        <div id="custom-cursor"></div>
+        <!-- Bug Infestation Container -->
+        <div class="fixed inset-0 pointer-events-none z-50" id="bug-infestation-container"></div>
+        <!-- Background Doodles -->
+        <div class="fixed inset-0 pointer-events-none z-[-1] overflow-hidden">
+                <img alt="Doodles" class="absolute top-[-10%] left-[-5%] w-200 opacity-10 doodle-float"
+                        src="/assets/background-doodle.jpg"
+                        style="animation-delay: 0s; transform: translate(-22.5469px, -29.9611px);" />
+                <img alt="Doodles" class="absolute bottom-[-20%] right-[-10%] w-250 opacity-15 doodle-float"
+                        src="/assets/background-doodle.jpg"
+                        style="animation-delay: 1.5s; transform: translate(-37.5781px, -49.9352px);" />
+                <img alt="Doodles" class="absolute top-[40%] left-[30%] w-150 opacity-10 doodle-float"
+                        src="/assets/background-doodle.jpg"
+                        style="animation-delay: 0.5s; transform: translate(-52.6094px, -69.9092px);" />
+        </div>
+
+
+        <!-- Sidebar -->
+        <div
+                class="fixed left-0 top-0 h-screen flex flex-col pt-24 pb-8 z-40 lg:flex bg-tertiary-fixed w-64 border-r-4 border-charcoal-text dark:border-outline shadow-[6px_0px_0px_0px_rgba(28,27,27,1)]">
+                <div class="px-6 mb-8 flex items-center gap-4">
+                        <div
+                                class="w-12 h-12 rounded-full bg-[#ff0055] text-warm-paper flex items-center justify-center font-bold text-xl border-2 border-charcoal-text">
+                                SRS</div>
+                        <div>
+                                <h3 class="font-label-caps text-label-caps text-charcoal-text font-bold">Shiv Raj Singh
+                                </h3>
+                                <p class="font-code-sm text-code-sm text-[#ff0055] opacity-90 font-bold">v1.0-MVP</p>
+                        </div>
+                </div>
+                <div class="flex flex-col gap-2 px-4 grow">
+                        <a class="text-charcoal-text dark:text-on-surface-variant px-4 py-2 flex items-center gap-3 font-label-caps text-label-caps hover:bg-[#00f0ff] hover:text-charcoal-text transition-all hover:translate-x-2 duration-200 rounded-xl border-2 border-transparent hover:border-charcoal-text hover:shadow-[4px_4px_0px_0px_rgba(28,27,27,1)]"
+                                href="#">
+                                <span class="material-symbols-outlined">code</span> Code
+                        </a>
+                        <a class="text-charcoal-text dark:text-on-surface-variant px-4 py-2 flex items-center gap-3 font-label-caps text-label-caps hover:bg-[#ff0055] hover:text-white transition-all hover:translate-x-2 duration-200 rounded-xl border-2 border-transparent hover:border-charcoal-text hover:shadow-[4px_4px_0px_0px_rgba(28,27,27,1)]"
+                                href="#">
+                                <span class="material-symbols-outlined">share</span> Social
+                        </a>
+                        <a class="text-charcoal-text dark:text-on-surface-variant px-4 py-2 flex items-center gap-3 font-label-caps text-label-caps hover:bg-[#00ffaa] hover:text-charcoal-text transition-all hover:translate-x-2 duration-200 rounded-xl border-2 border-transparent hover:border-charcoal-text hover:shadow-[4px_4px_0px_0px_rgba(28,27,27,1)]"
+                                href="#">
+                                <span class="material-symbols-outlined">library_music</span> Music
+                        </a>
+                        <a class="text-charcoal-text dark:text-on-surface-variant px-4 py-2 flex items-center gap-3 font-label-caps text-label-caps hover:bg-[#E1AD01] hover:text-charcoal-text transition-all hover:translate-x-2 duration-200 rounded-xl border-2 border-transparent hover:border-charcoal-text hover:shadow-[4px_4px_0px_0px_rgba(28,27,27,1)]"
+                                href="#">
+                                <span class="material-symbols-outlined">edit_note</span> Notes
+                        </a>
+                </div>
+                <div class="mt-auto px-4 flex flex-col gap-2 border-t-4 border-charcoal-text pt-4 relative">
+                        <img alt="doodle" class="absolute top-[-40px] right-0 w-20 opacity-40 mix-blend-multiply"
+                                src="https://lh3.googleusercontent.com/aida/AEtjO1WnP79Y-5GRNKep0rzSMCwzwu6IE2kQtKlNHwSEDPThtPCDU-Xsk3q2bK3rER03u5aqZcQTwNUlUkDP2ZL_oDZ7cLMpnpazN5zuOgOgXTBHzY5q_itTE0GJFRYaJP3EcFiDSWIcdoTuq26Iif4TQIPAeyMNf65ww8fp7i5f_JoZZ8tSsaRAsAMkjmLu1AhtEl4N4R7x7lEBQvona6hmH4zyRePPETnQGYi1eUkk3wzZfOtCO5hlq5BmNk1w">
+                        <a class="text-charcoal-text dark:text-on-surface-variant px-4 py-2 flex items-center gap-3 font-label-caps text-label-caps hover:bg-primary-fixed hover:text-on-primary-fixed transition-all hover:translate-x-1 duration-200 rounded-lg"
+                             target="_blank"   href="https://github.com/svrjtomar">
+                                <span class="material-symbols-outlined">terminal</span> GitHub
+                        </a>
+                        <a class="text-charcoal-text dark:text-on-surface-variant px-4 py-2 flex items-center gap-3 font-label-caps text-label-caps hover:bg-primary-fixed hover:text-on-primary-fixed transition-all hover:translate-x-1 duration-200 rounded-lg"
+                              target="_blank"  href="https://linkedin.com/in/svrjtomar">
+                                <span class="material-symbols-outlined">account_circle</span> LinkedIn
+                        </a>
+                </div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="max-w-container-max mx-auto px-margin-edge md:px-margin-edge lg:pl-72  relative">
+                <!--Hero section -->
+                <section class="min-h-205 flex flex-col mt-5 relative">
+
+                        <div class="relative z-10 w-full">
+                                <div class="col-span-12 md:col-span-10 lg:col-span-9">
+                                        <p
+                                                class="font-display-lg text-headline-md text-charcoal-text mb-6 uppercase tracking-tighter bg-[#E1AD01] w-fit px-6 py-2 border-[3px] border-charcoal-text shadow-[6px_6px_0px_0px_rgba(28,27,27,1)] transform -rotate-1 font-bold">
+                                                SHIV RAJ SINGH — FRONTEND DEVELOPER</p>
+                                        <div class="relative w-full flex justify-around">
+
+                                                <h1
+                                                        class="font-display-lg-mobile md:font-display-2xl text-display-lg-mobile md:text-display-2xl text-charcoal-text mb-8 relative">
+                                                        <span class="absolute -top-15 left-2 text-6xl text-[#ff0055] doodle-float"
+                                                                style="transform: translate(-37.5781px, -49.9352px);">✨</span>
+                                                        I turn<br /> <span
+                                                                class="text-[#00f0ff] bg-charcoal-text px-4 rounded-xl -rotate-2 inline-block shadow-[6px_6px_0px_0px_#ff0055]">caffeine</span><br />
+                                                        into code<br />
+
+                                                </h1>
+                                                <div>
+                                                        <div class="relative w-68 h-58 mb-8 group">
+
+                                                                <div
+                                                                        class="absolute inset-0 bg-[#00ffaa] rounded-full rotate-6 group-hover:rotate-12 transition-transform border-4 border-charcoal-text shadow-[8px_8px_0px_0px_rgba(28,27,27,1)]">
+                                                                </div>
+                                                                <div
+                                                                        class="absolute inset-0 bg-[#ff0055] rounded-full -rotate-3 group-hover:-rotate-6 transition-transform border-4 border-charcoal-text">
+                                                                </div>
+                                                                <div
+                                                                        class="relative w-full h-full rounded-full overflow-hidden border-4 border-charcoal-text bg-white sticker-element">
+                                                                        <img alt="Profile Portrait"
+                                                                                class="w-full h-full object-cover"
+                                                                                src="https://lh3.googleusercontent.com/aida/AP1WRLtg9iVR0dfdmvk3L0lUj7pvERDQb86EvkBtSYJkfda0F0now3sY-yrD6L8-FQSwa_4ZJfM3i8cSIdn788imkpj8ENtuc2sKNyaok8OSKbSSGZQT7B6i6OcNx-3rYn4_umCjGJdSvyqELiDgUEkXLi3qfeoJizPcTgqWpFjOtWFtpovwQoTNGZkbBJw2majTQ0qrr8YyaFCQVBAY5ywj8_9aYh9MHVpRULKl64dw9tPeZISgQJU-6vn49K4" />
+                                                                </div>
+                                                                <span class="absolute -bottom-4 -right-4 text-4xl doodle-float"
+                                                                        style="transform: translate(-22.5469px, -29.9611px);">🎨</span>
+                                                        </div>
+                                                        <div
+                                                                class="flex items-center gap-4 mt-16  bg-[#00ffaa] sticker-element p-3 w-fit ">
+                                                                <span
+                                                                        class="font-label-caps text-label-caps text-charcoal-text font-bold">BUG</span>
+                                                                <div class="w-20 h-10 bg-white rounded-full relative cursor-pointer border-4 border-charcoal-text overflow-hidden"
+                                                                        id="bug-toggle" onclick="toggleBugFeature()">
+                                                                        <div class="w-8 h-8 bg-[#ff0055] rounded-full absolute left-0.5 top-0.5 transition-transform duration-300 ease-bounce border-2 border-charcoal-text"
+                                                                                id="toggle-knob"></div>
+                                                                </div>
+                                                                <span
+                                                                        class="font-label-caps text-label-caps text-charcoal-text font-bold">FEATURE</span>
+                                                                <span class="material-symbols-outlined ml-2 text-charcoal-text text-3xl doodle-wiggle"
+                                                                        id="toggle-icon">bug_report</span>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <span
+                                                class="text-[#ff0055] opacity-100 italic squiggle-underline relative text-5xl ">
+                                                (and occasionally bugs)
+                                                <span class="absolute -right-16 top-0 text-5xl doodle-wiggle">🐛</span>
+                                        </span>
+
+                                </div>
+                        </div>
+                        <!-- Quirky Floating Element -->
+
+                </section>
+
+                <script type="module" src="/src/main.js"></script>
+      
+</body>
+
+</html>

@@ -108,6 +108,7 @@
 
 * {
   cursor: none !important;
+  outline: 1px solid red;
 }
 
 body {
